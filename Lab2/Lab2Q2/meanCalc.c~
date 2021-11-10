@@ -1,0 +1,7 @@
+ 
+float meanCalc(int size, float sum){
+  float mean = 0.0; 
+  mean = sum / size;
+  return mean;
+}
+

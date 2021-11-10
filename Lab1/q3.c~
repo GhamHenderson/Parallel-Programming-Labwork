@@ -1,0 +1,12 @@
+graham@GrahamPC:~/Documents/Lab1$ ls
+floatmean.c~  mean.c~  q1  q1.c  Q1.c~  q2  q2.c  q2.c~  q3.c~
+graham@GrahamPC:~/Documents/Lab1$ gcc q3 -o q3.c
+/usr/bin/ld: cannot find q3: No such file or directory
+collect2: error: ld returned 1 exit status
+graham@GrahamPC:~/Documents/Lab1$ls 
+graham@GrahamPC:~/Documents/Lab1$ ls
+floatmean.c~  mean.c~  q1  q1.c  Q1.c~  q2  q2.c  q2.c~  q3.c  q3.c~
+graham@GrahamPC:~/Documents/Lab1$ gcc q3 -o q3.c
+/usr/bin/ld: cannot find q3: No such file or directory
+collect2: error: ld returned 1 exit status
+graham@GrahamPC:~/Documents/Lab1$ 

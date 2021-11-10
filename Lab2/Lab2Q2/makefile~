@@ -1,0 +1,9 @@
+CC=gcc
+CFLAGS=-I.
+DEPS = main.h
+
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
+
+hellomake: main.o mean.o standev.o
+	$(CC) -o main main.o mean.o standev.o -lm
